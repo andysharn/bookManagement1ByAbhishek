@@ -1,8 +1,15 @@
 
 # Book Management by Abhishek
 
-A brief description of what this project does and who it's for
+This is a backend application for managing books using Node.js. Security features such as JWT (JSON Web Tokens), bcrypt for password hashing, and user roles have been implemented.
 
+The application follows object-oriented programming principles and is built using Express.js framework. MongoDB is used as the database.
+
+Middlewares for ensuring good code quality, such as error handling and input validation, have been incorporated.
+
+The folder structure has been organized for better code management and readability.
+
+The configuration file has intentionally been left unchanged in previous commits, making it easier for you to test out the code without needing to adjust configurations.
 
 ## To Run this project
 
@@ -205,14 +212,14 @@ It'll get logged in user details.
 
 
 
-#### 12. Get All Books
+#### 14. Get All Books
 
 ```http
   GET /api/v1/getAllBooks
 ```
 
 
-#### 13. Get All Books via filters
+#### 15. Get All Books via filters
 
 ```http
   GET api/v1/getAllBooks?bookAuthor=name&bookPublishYear=2010
@@ -227,7 +234,7 @@ It'll get logged in user details.
 
 
 
-#### 14. Get Book By Id 
+#### 16. Get Book By Id 
 
 ```http
   GET /api/v1/getBookById/:id
